@@ -19,6 +19,7 @@ if(input.value == "admin"){
   else
   {
     display2.innerHTML ="password is invalid";
+      display2.style.color = "red";
     display1.innerHTML ="username is valid";
     display1.style.color = "green";
      return false;
@@ -27,6 +28,7 @@ if(input.value == "admin"){
                           }
 else{
   display1.innerHTML ="username is invalid";
+    display1.style.color = "red";
   return false;
     }
                             }
